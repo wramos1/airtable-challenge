@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#classForm button {
+    display: block;
+    text-align: center;
+    margin: 4% auto;
+}
+
+.loading {
+    display: none;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.class-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 400px;
+    padding: 10px;
+    margin: 5% auto;
+}
+
+#studentList {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
