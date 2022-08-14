@@ -1,46 +1,16 @@
-# Getting Started with Create React App
+# Airtable Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A coding challenge put out by Airtable's hiring process. Was instructed to build a React-Typescript web app utilizing Airtable's API in order to test developer's handling of an external API and its params. All state needed to be managed on Redux along with Typescript typing. 
 
-## Available Scripts
+Table for app can be found on: 
+https://airtable.com/app8ZbcPx7dkpOnP0/tblgh8YARZPqeJF07/viwHassDZGGGObFdj?blocks=hide
 
-In the project directory, you can run:
+A user is presented with an input form in which they can search for a student's information. 
 
-### `npm start`
+Multiple API calls are then made to search for a student's classes, the classes' info, and then the students' info enrolled in said classes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Data is presented in a simple UI design to display successfully getting the information.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Log in and log out buttons are integrated to dispatch actions calling state and reseting state as well as to simulate user authentication.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
