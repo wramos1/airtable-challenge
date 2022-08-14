@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/airtable-challenge/static/css/main.f820e610.css",
+    "main.js": "/airtable-challenge/static/js/main.1283de3d.js",
+    "index.html": "/airtable-challenge/index.html",
+    "main.f820e610.css.map": "/airtable-challenge/static/css/main.f820e610.css.map",
+    "main.1283de3d.js.map": "/airtable-challenge/static/js/main.1283de3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f820e610.css",
+    "static/js/main.1283de3d.js"
+  ]
+}
