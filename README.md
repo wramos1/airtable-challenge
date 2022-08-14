@@ -13,4 +13,4 @@ Data is presented in a simple UI design to display successfully getting the info
 
 Log in and log out buttons are integrated to dispatch actions calling state and reseting state as well as to simulate user authentication.
 
-
+_Technologies Used: React, Redux, Redux Toolkit, Typescript, HTML, CSS_
